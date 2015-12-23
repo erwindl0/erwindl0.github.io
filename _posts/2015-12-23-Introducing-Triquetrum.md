@@ -106,8 +106,3 @@ Feel free to discover and follow Triquetrum via the different channels:
 * Mailing list: https://dev.eclipse.org/mailman/listinfo/triquetrum-dev
 * Forum: https://www.eclipse.org/forums/index.php/f/325/
 
-# Why the name Triquetrum?
-
-![Triquetrum of Copernicus](https://raw.githubusercontent.com/wiki/eclipse/triquetrum/images/TriquetrumOfCopernicus200x158.jpg)  
-
-"The triquetrum (derived from the Latin tri- ["three"] and quetrum ["cornered"]) was the medieval name for an ancient astronomical instrument first described by Ptolemy (c. 90ñc. 168) in the Almagest (V. 12" (Source: [Wikipedia](https://en.wikipedia.org/wiki/Triquetrum_%28astronomy%29)) Pictured is the Triquetrum of Copernicus from Meyers Groﬂes Konversations-Lexikon 6. Auflage 1905ñ1909.  The name evokes the [model-view-controller](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern.
