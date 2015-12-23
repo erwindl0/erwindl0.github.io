@@ -3,9 +3,9 @@ layout: post
 title: First Triquetrum post!
 ---
 
-# Triquetrum - An actor oriented open platform for managing and executing scientific workflows.
+## Triquetrum - An actor oriented open platform for managing and executing scientific workflows.
 
-# Introducing Triquetrum
+### Introducing Triquetrum
 
 [Triquetrum](https://projects.eclipse.org/projects/technology.triquetrum), a new project within the [Eclipse Science IWG](https://science.eclipse.org/), has delivered its initial contribution for [Sinterklaas](https://en.wikipedia.org/wiki/Sinterklaas) 2015.
 
@@ -36,7 +36,7 @@ The project is structured on three lines of work:
 
 Below we will discuss the first two lines of work in a bit more detail, followed by the current state of Triquetrum as delivered in its initial contribution.
 
-# Triquetrum workflow management
+### Triquetrum workflow management
 
 The core of Triquetrum is an integration of [Ptolemy II](http://ptolemy.eecs.berkeley.edu/ptolemyII/) in an Eclipse and OSGi technology stack. Ptolemy II is an open-source simulation and modeling tool from UC Berkeley. Originally intended for research and experimenting with system design techniques across engineering domains, it provides formalisms and tools for defining and executing hierarchical models of heterogeneous systems. Ptolemy II combines its actor-oriented architecture with a strong focus on concurrency, encapsulation and modularity. It comes with its own model design GUI called Vergil, based on Swing and a 2D graphical framework called Diva.
 
@@ -47,7 +47,7 @@ The combination of Eclipse/OSGi with Ptolemy II delivers a solid platform for a 
 Triquetrum delivers both a model design GUI based on Eclipse technology, and supporting APIs for local & remote executions, including support for debugging/breakpoints etc.
 The platform and RCP editor are extensible with domain-specific components and modules, building on the modular features and related APIs that both Ptolemy II and Eclipse/OSGi offer.
 
-# Task-based processing
+### Task-based processing
 
 A Triquetrum Task represents WHAT a certain step in a process must achieve, not HOW it must be processed. The actual processing is typically done by corresponding TaskProcessingService implementations.
 Neither a Task nor the thing creating a Task are aware of the concrete service that will process it. A TaskProcessingBroker mediates between submitted tasks and the right TaskProcessingService. Service implementations are typically asynchronous (a.k.a. non-blocking), they may perform local work or may invoke remote services and they encapsulate whatever technical features that may be needed.
@@ -58,7 +58,7 @@ Tasks are also used to structure execution traces with the received inputs, deta
 
 A graphically designed Triquetrum workflow could be considered as an easy way to define and orchestrate sequences of Tasks that get processed by a service layer with support for concurrency, asynchronous processing, persistence, remote invocations etc., instead of writing a program to do the same. But it's important to note that the Task-based API can be used independently of Triquetrum's workflow implementation, e.g. by other workflow/orchestration/sequencing software or even ad-hoc systems, interactive UIs etc. As other Science IWG software projects may have similar requirements or features to structure work performed by users or automated tools, we hope to integrate the different ideas and implementations and to be able to define a uniform and reusable Task-oriented API.
 
-# The scope of the initial contribution
+### The scope of the initial contribution
 
 Besides learning about the Eclipse project set-up procedures, IP checking etc., the focus of this first phase has been on two topics:
 
@@ -89,7 +89,7 @@ Only org.eclipse.triquetrum.workflow.WorkflowExecutionService has been implement
 This one is used in the RCP application to run its models. The processing APIs are not yet implemented, but will serve as a basis to investigate the integration of related implementations from other scientific software projects.
 
 
-# The roadmap for the near future
+### The roadmap for the near future
 For the moment, we're working on an initial set of documents to describe the different parts of the project in more detail, and to prepare a [[Getting Started]] guide for new collaborators.
 
 Now that we've have the main elements working together for the workflow editor, we will integrate more Ptolemy II actors and tools in the editor. Support for hierarchical models will be added with priority.
@@ -101,6 +101,7 @@ Thirdly, we will provide an initial set of integration adapters for remote servi
 Finally, we will start developing a library of actors and services to integrate Task-based workflow concepts with support for scientific data sets, via the upcoming Eclipse Data Structures project.
 
 Feel free to discover and follow Triquetrum via the different channels:
+
 * The project site at: https://projects.eclipse.org/projects/technology.triquetrum
 * Source repository at: https://github.com/eclipse/triquetrum
 * Mailing list: https://dev.eclipse.org/mailman/listinfo/triquetrum-dev
