@@ -87,8 +87,8 @@ Finally, we will start developing a library of actors and services to integrate 
 
 Feel free to discover and follow Triquetrum via the different channels:
 
-* The project site at: https://projects.eclipse.org/projects/technology.triquetrum
-* Source repository at: https://github.com/eclipse/triquetrum
-* Mailing list: https://dev.eclipse.org/mailman/listinfo/triquetrum-dev
-* Forum: https://www.eclipse.org/forums/index.php/f/325/
+* The project site at: <https://projects.eclipse.org/projects/technology.triquetrum>
+* Source repository at: <https://github.com/eclipse/triquetrum>
+* Mailing list: <https://dev.eclipse.org/mailman/listinfo/triquetrum-dev>
+* Forum: <https://www.eclipse.org/forums/index.php/f/325/>
 
