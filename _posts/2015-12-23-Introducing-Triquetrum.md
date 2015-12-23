@@ -75,7 +75,7 @@ Only org.eclipse.triquetrum.workflow.WorkflowExecutionService has been implement
 This one is used in the RCP application to run its models. The processing APIs are not yet implemented, but will serve as a basis to investigate the integration of related implementations from other scientific software projects.
 
 ### The roadmap for the near future
-For the moment, we're working on an initial set of documents to describe the different parts of the project in more detail, and to prepare a [[Getting Started]] guide for new collaborators.
+For the moment, we're working on an initial set of documents to describe the different parts of the project in more detail, and to prepare a [Getting Started](https://github.com/eclipse/triquetrum/wiki/Getting-Started) guide for new collaborators.
 
 Now that we've have the main elements working together for the workflow editor, we will integrate more Ptolemy II actors and tools in the editor. Support for hierarchical models will be added with priority.
 
