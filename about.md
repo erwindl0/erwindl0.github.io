@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+[Triquetrum](https://projects.eclipse.org/projects/technology.triquetrum) is an open source project started within the [Eclipse Science IWG](https://science.eclipse.org/).
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+* The project site at: <https://projects.eclipse.org/projects/technology.triquetrum>
+* Source repository at: <https://github.com/eclipse/triquetrum>
 
-### Contact me
+### Contact
 
-[email@domain.com](mailto:email@domain.com)
+* Mailing list: <https://dev.eclipse.org/mailman/listinfo/triquetrum-dev>
+* Forum: <https://www.eclipse.org/forums/index.php/f/325/>
