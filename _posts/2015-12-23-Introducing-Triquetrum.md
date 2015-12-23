@@ -16,20 +16,15 @@ Besides delivering a generic workflow environment, Triquetrum also delivers exte
 The integration of a workflow system in a platform for scientific software can bring many benefits:
 
 1. the steps in scientific processes are made explicitly visible in the workflow models (i.e. being hidden inside program code).
-
 2. such models can serve as a means to present, discuss and share scientific processes in communities with different skills-sets
-
 3. allow differentiating for different roles within a common tools set: software engineers, internal scientists, visiting scientists etc.
-
 4. promotes reuse of software assets and modular solution design
-
 5. technical services for automating complex processes in a scalable and maintainable way
-
 6. crucial tool for advanced analytics on gigantic datasets
-
 7. integrates execution tracing, provenance data, etc.
 
 The project is structured on three lines of work:
+
 1. A graphical model editor delivered as plugins for an Eclipse RCP application, and an execution runtime that must be easy to integrate in different environments, ranging from a personal RCP workbench to large-scale distributed systems.
 2. APIs and OSGi service impls for Task-based processing.
 3. Supporting APIs and tools, e.g. integration adapters to all kinds of things like external software packages, resource managers, data sources etc.
@@ -63,17 +58,13 @@ A graphically designed Triquetrum workflow could be considered as an easy way to
 Besides learning about the Eclipse project set-up procedures, IP checking etc., the focus of this first phase has been on two topics:
 
 1. select the Eclipse technologies that will be at the core of the graphical editor and build a trivial RCP application to demonstrate their integration
-
 2. migrate an initial set of APIs and implementations from Passerelle
 
 The main Eclipse frameworks that are used for the workflow editor are:
 
 1. [Equinox](http://www.eclipse.org/equinox/), RCP, ...: the traditional stuff for RCP applications
-
 2. [EMF](https://eclipse.org/modeling/emf/): to define a meta-model for Ptolemy II's model elements like Actors, CompositeActors, Parameters, Directors etc.
-
 3. [Graphiti](https://eclipse.org/graphiti/): for the graphical editor
-
 4. [EMF Forms](http://www.eclipse.org/ecp/emfforms/): to define Actor configuration forms
 
 Following APIs have been provided alongside the editor:
@@ -81,13 +72,11 @@ Following APIs have been provided alongside the editor:
 1. org.eclipse.triquetrum.processing.api
   * org.eclipse.triquetrum.processing.model: this contains interfaces representing tasks, their attributes, lifecycle events, results etc.
   * org.eclipse.triquetrum.processing.service: service interfaces to validate tasks and to get them processed
-
 2. org.eclipse.triquetrum.workflow.api
   * org.eclipse.triquetrum.workflow: defines interfaces to maintain workflow models as versioned assets, and to execute workflows
 
 Only org.eclipse.triquetrum.workflow.WorkflowExecutionService has been implemented at this stage (with any required supporting interfaces), by org.eclipse.triquetrum.workflow.execution.impl.
 This one is used in the RCP application to run its models. The processing APIs are not yet implemented, but will serve as a basis to investigate the integration of related implementations from other scientific software projects.
-
 
 ### The roadmap for the near future
 For the moment, we're working on an initial set of documents to describe the different parts of the project in more detail, and to prepare a [[Getting Started]] guide for new collaborators.
