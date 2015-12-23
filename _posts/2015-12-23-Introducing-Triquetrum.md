@@ -1,11 +1,7 @@
 ---
 layout: post
-title: First Triquetrum post!
+title: Introducing Triquetrum
 ---
-
-## Triquetrum - An actor oriented open platform for managing and executing scientific workflows.
-
-### Introducing Triquetrum
 
 [Triquetrum](https://projects.eclipse.org/projects/technology.triquetrum), a new project within the [Eclipse Science IWG](https://science.eclipse.org/), has delivered its initial contribution for [Sinterklaas](https://en.wikipedia.org/wiki/Sinterklaas) 2015.
 
@@ -33,7 +29,7 @@ Below we will discuss the first two lines of work in a bit more detail, followed
 
 ### Triquetrum workflow management
 
-The core of Triquetrum is an integration of [Ptolemy II](http://ptolemy.eecs.berkeley.edu/ptolemyII/) in an Eclipse and OSGi technology stack. Ptolemy II is an open-source simulation and modeling tool from UC Berkeley. Originally intended for research and experimenting with system design techniques across engineering domains, it provides formalisms and tools for defining and executing hierarchical models of heterogeneous systems. Ptolemy II combines its actor-oriented architecture with a strong focus on concurrency, encapsulation and modularity. It comes with its own model design GUI called Vergil, based on Swing and a 2D graphical framework called Diva.
+The core of Triquetrum is an integration of [Ptolemy II](http://ptolemy.eecs.berkeley.edu/ptolemyII/) in an Eclipse and OSGi technology stack. Ptolemy II is a simulation and modeling tool from UC Berkeley. Originally intended for research and experimenting with system design techniques across engineering domains, it provides formalisms and tools for defining and executing hierarchical models of heterogeneous systems. Ptolemy II combines its actor-oriented architecture with a strong focus on concurrency, encapsulation and modularity. It comes with its own model design GUI called Vergil, based on Swing and a 2D graphical framework called Diva.
 
 During its history of almost two decades it has been used internationally in varying domains, including in spin-offs for scientific workflow management like the [Kepler Project](https://kepler-project.org/) and [Passerelle](https://github.com/eclipselabs/passerelle). Triquetrum continues on the track started by Passerelle but now as an official Eclipse project linked to the Science IWG, and with a much closer integration and collaboration with the Ptolemy II team at UC Berkeley.
 
